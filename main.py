@@ -17,7 +17,7 @@ async def on_connect():
 
 async def on_ready():
   print("Fornite Stuff Changer Is Online")
-  await bot.change_presence(activity=discord.Streaming(name="Fornite Stuff Changer Backend", url="https://www.youtube.com/watch?v=yvILaQYQbps"))
+  await bot.change_presence(activity=discord.Streaming(name="Fornite Stuff Changer Backend", url="https://www.youtube.com/watch?v=dQw4w9WgXcQ"))
 
 
 
@@ -30,7 +30,7 @@ class embeds:
 
 
 async def login(ctx):
-  embed=discord.Embed(title="Sign Into Epic Games", color=color)
+  embed=discord.Embed(title="Sign Into Your Epic Games Account", color=color)
   embed.set_image(url="https://media.discordapp.net/attachments/836517393266245632/837230076118302730/image0.png")
   embed.add_field(name="step 1", value="Go to [Epic Games](https://rebrand.ly/authcode) and copy the content that looks like this `0222adecfaaa490c8d28674754688e5e`", inline=True)
   embed.add_field(name="step 2", value="send the copied code in dms", inline=True)
